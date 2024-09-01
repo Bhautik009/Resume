@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a onclick="scrollInto('profile')">Profile</a>
+            <a onclick="scrollInto('education')">Education</a>
+            <a onclick="scrollInto('skill')">Skill</a>
+            <a onclick="scrollInto('achievements')">Achievements</a>
+            <a onclick="scrollInto('contact')">Contact</a>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div id="profile">
+            <b><h1 class="topline">Bhautik Parmar</h1></b>
+            <p class="sideline">Web Developer</p><br><br>
+            <p class="description">Hello! I am Bhautik Parmar. I am currently studying at SDJ International College, pursuing a BCA degree from Veer Narmad South Gujarat University. I am a bright and receptive person, able to communicate well with people at all levels.</p>
+        </div>
+        <div>
+            <img id="profileimg" src="image/image.jpeg" height="200" width="200" alt="Profile Image">
+        </div>
+
+        <div class="line"></div>
+        <div class="education" id="education">
+            <h1><li><b>Education</b></li></h1><br>
+            <ul>
+                <li>2022-2025</li>
+                <li>Bachelor of Computer Applications</li>
+                <li>SDJ International College, Vesu</li>
+            </ul>
+            <br><br>
+            <ul>
+                <li>2020-2022</li>
+                <li>Higher Secondary Education</li>
+                <li>Smt L.P.D. Patel Higher Secondary School</li>
+                <li>Grade: 82%</li>
+            </ul>
+        </div>
+
+        <div class="sub_line"></div>
+        <div class="skill" id="skill">
+            <h1><li><b>Skill</b></li></h1><br>
+            <ul>
+                <li>Web Technology</li>
+                <li><ion-icon name="logo-html5"></ion-icon> HTML</li>
+                <li><ion-icon name="logo-css3"></ion-icon> CSS</li>
+                <li><ion-icon name="logo-nodejs"></ion-icon> JavaScript</li>
+                <li><ion-icon name="logo-python"></ion-icon> Python</li>
+                <br>
+                <li>DBMS</li>
+                <li>SQL</li>
+                <li>SQLite</li>
+                <li>PL/SQL</li>
+            </ul>
+        </div>
+
+        <div class="sub_line"></div>
+        <div class="achievements" id="achievements">
+            <h1><li><b>Achievements</b></li></h1><br>
+            <ul>
+                <li>Foundation of IT Support</li>
+                <li>Trending & Chart Analysis</li>
+                <li>Office Automation</li>
+            </ul>
+        </div>
+
+        <div class="sub_line"></div>
+        <div class="contact" id="contact">
+            <h1><li><b>Contact</b></li></h1><br>
+            <ul>
+                <li><ion-icon name="call-outline"></ion-icon> +91 9978433654</li>
+                <li><ion-icon name="logo-google"></ion-icon> bhautikparmar8030@gmail.com</li>
+                <li class="color-whate">linkedin.com/in/bhautikparmar</li><br>
+                <a href="https://www.instagram.com/bhautik07.____" class="icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://wa.me/9978433654" class="icon"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a href="https://www.facebook.com/bhautik.parmar.9028?sfnsn=wiwspwa&mibextid=RUbZ1f" class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
